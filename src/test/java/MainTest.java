@@ -16,7 +16,7 @@ public class MainTest {
     public void testSumFail(){
         MavenMain mavenMain = new MavenMain();
 
-        assertEquals(7, mavenMain.sum(2, 4));
+        assertEquals(6, mavenMain.sum(2, 4));
 
     }
 }
