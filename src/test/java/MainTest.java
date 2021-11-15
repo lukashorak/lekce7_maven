@@ -11,4 +11,12 @@ public class MainTest {
         assertEquals(7, mavenMain.sum(2, 5));
 
     }
+
+    @Test
+    public void testSumFail(){
+        MavenMain mavenMain = new MavenMain();
+
+        assertEquals(7, mavenMain.sum(2, 4));
+
+    }
 }
